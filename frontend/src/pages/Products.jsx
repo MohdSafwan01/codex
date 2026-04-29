@@ -4,12 +4,12 @@ import ScrollReveal from '../components/effects/ScrollReveal';
 import api from '../lib/api';
 
 const fallbackProducts = [
-  { _id: '1', title: 'The Systems Design Playbook', description: 'A comprehensive guide to designing scalable distributed systems.', price: 349, category: 'Ebook', coverImageUrl: 'https://picsum.photos/seed/systems-design/800/600' },
-  { _id: '2', title: 'DSA Patterns: 50 Must-Know', description: 'Master the 50 most frequently asked DSA patterns in tech interviews.', price: 149, category: 'Notes', coverImageUrl: 'https://picsum.photos/seed/dsa-patterns/800/600' },
-  { _id: '3', title: 'Machine Learning, Visually', description: 'Learn ML through stunning visual explanations.', price: 199, category: 'PDF', coverImageUrl: 'https://picsum.photos/seed/ml-visually/800/600' },
-  { _id: '4', title: "UI/UX: The Designer's Bible", description: 'The definitive reference for modern interface design.', price: 299, category: 'Ebook', coverImageUrl: 'https://picsum.photos/seed/uiux-bible/800/600' },
-  { _id: '5', title: 'Cloud Computing Zero to Hero', description: 'AWS, GCP, Azure, Docker, Kubernetes, and CI/CD pipelines.', price: 99, category: 'Notes', coverImageUrl: 'https://picsum.photos/seed/cloud-hero/800/600' },
-  { _id: '6', title: 'Full-Stack React 2026 Guide', description: 'Build production-grade apps with React 19 and Next.js 15.', price: 249, category: 'PDF', coverImageUrl: 'https://picsum.photos/seed/react-2026/800/600' },
+  { _id: '1', title: 'The Systems Design Playbook', description: 'A comprehensive guide to designing scalable distributed systems.', price: 349, category: 'Ebook', coverImageUrl: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80' },
+  { _id: '2', title: 'DSA Patterns: 50 Must-Know', description: 'Master the 50 most frequently asked DSA patterns in tech interviews.', price: 149, category: 'Notes', coverImageUrl: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80' },
+  { _id: '3', title: 'Machine Learning, Visually', description: 'Learn ML through stunning visual explanations.', price: 199, category: 'PDF', coverImageUrl: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=800&q=80' },
+  { _id: '4', title: "UI/UX: The Designer's Bible", description: 'The definitive reference for modern interface design.', price: 299, category: 'Ebook', coverImageUrl: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=800&q=80' },
+  { _id: '5', title: 'Cloud Computing Zero to Hero', description: 'AWS, GCP, Azure, Docker, Kubernetes, and CI/CD pipelines.', price: 99, category: 'Notes', coverImageUrl: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=800&q=80' },
+  { _id: '6', title: 'Full-Stack React 2026 Guide', description: 'Build production-grade apps with React 19 and Next.js 15.', price: 249, category: 'PDF', coverImageUrl: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=800&q=80' },
 ];
 
 const categories = ['All', 'Ebook', 'Notes', 'PDF'];
